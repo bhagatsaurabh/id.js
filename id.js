@@ -27,5 +27,7 @@ function registerObserver() {
     observer.observe(document.body, {childList: true, subtree: true});
 }
 
-generateRef(document);
-registerObserver();
+document.addEventListener('load', () => {
+    generateRef(document);
+    registerObserver();
+});
