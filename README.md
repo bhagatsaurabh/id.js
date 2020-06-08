@@ -13,7 +13,7 @@ Add id.js in html
 ```
 ---
 ## Example
-In HTML
+> In HTML
 
 ```html
 <header id='header'>My Header</header>
@@ -21,7 +21,7 @@ In HTML
 <footer id='footer'>My Header</footer>
 ```
 
-In JavaScript
+> In JavaScript
 
 (directly reference the elements by their id's)
 
