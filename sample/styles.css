@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(255, 165, 62);
+    display: flex;
+    box-shadow: 0 0 6px 1px;
+    z-index: 6;
+}
+#menuIcon {
+    position: relative;
+    width: 3em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-image: url('img/menu.png');
+    transition: background-color .2s linear;
+    cursor: pointer;
+}
+#menuIcon:hover {
+    background-color: rgb(255, 138, 4);
+}
+.headerItem {
+    position: relative;
+    height: 100%;
+    font-family: Arial;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+    transition: background-color .2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerItem:hover {
+    background-color: rgb(255, 138, 4);
+}
+#sidebar {
+    position: absolute;
+    height: 93%;
+    width: 10%;
+    background-color: rgb(255, 201, 100);
+    top: 7%;
+    left: -10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: left .2s ease-out;
+    z-index: 5;
+}
+.sidebarItem {
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    cursor: pointer;
+    transition: background-color .2s linear;
+}
+.sidebarItem:hover {
+    background-color: rgb(255, 173, 22);
+}
+.sidebar-show {
+    left: 0 !important;
+}
