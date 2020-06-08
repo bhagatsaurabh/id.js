@@ -2,10 +2,16 @@
 A small JS library to easily access DOM nodes with id's
 
 Reference your html elements by their id's in JavaScript without doing `document.getElement....` again and again
-
-
-## Example
 ---
+## Usage
+Add id.js in html
+```html
+  <head>
+    <script src='id.js'></script>
+  </head>
+```
+---
+## Example
 In HTML
 
 ```html
