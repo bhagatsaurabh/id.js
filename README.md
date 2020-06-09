@@ -11,6 +11,12 @@ Add id.js in html
     <script src='id.js'></script>
   </head>
 ```
+> or
+```html
+  <head>
+    <script src='https://cdn.jsdelivr.net/gh/saurabh-prosoft/id.js/id.js'></script>
+  </head>
+```
 ---
 ## Example
 > In HTML
