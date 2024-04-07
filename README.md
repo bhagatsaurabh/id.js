@@ -1,5 +1,5 @@
 # id.js
-A small JS library to easily access DOM nodes with id's
+A small JS script to easily access DOM nodes with id's
 
 Reference your html elements by their id's in JavaScript without doing `document.getElement....` again and again
 
